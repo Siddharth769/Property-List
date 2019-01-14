@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		35A2548621CA5C88009AAACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2548521CA5C88009AAACD /* AppDelegate.swift */; };
-		35A2548821CA5C88009AAACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2548721CA5C88009AAACD /* ViewController.swift */; };
 		35A2548B21CA5C88009AAACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A2548921CA5C88009AAACD /* Main.storyboard */; };
 		35A2548D21CA5C89009AAACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A2548C21CA5C89009AAACD /* Assets.xcassets */; };
 		35A2549021CA5C89009AAACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A2548E21CA5C89009AAACD /* LaunchScreen.storyboard */; };
 		35A2549B21CA5C89009AAACD /* PropertyListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2549A21CA5C89009AAACD /* PropertyListTests.swift */; };
+		35A254A621CA5CA5009AAACD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A254A521CA5CA5009AAACD /* TableViewController.swift */; };
+		35A254A821CA5DCC009AAACD /* TableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35A254A721CA5DCC009AAACD /* TableData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		35A2548221CA5C88009AAACD /* PropertyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A2548521CA5C88009AAACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35A2548721CA5C88009AAACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35A2548A21CA5C88009AAACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35A2548C21CA5C89009AAACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35A2548F21CA5C89009AAACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		35A2549621CA5C89009AAACD /* PropertyListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertyListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A2549A21CA5C89009AAACD /* PropertyListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListTests.swift; sourceTree = "<group>"; };
 		35A2549C21CA5C89009AAACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A254A521CA5CA5009AAACD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		35A254A721CA5DCC009AAACD /* TableData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TableData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				35A2548521CA5C88009AAACD /* AppDelegate.swift */,
-				35A2548721CA5C88009AAACD /* ViewController.swift */,
+				35A254A521CA5CA5009AAACD /* TableViewController.swift */,
+				35A254A721CA5DCC009AAACD /* TableData.plist */,
 				35A2548921CA5C88009AAACD /* Main.storyboard */,
 				35A2548C21CA5C89009AAACD /* Assets.xcassets */,
 				35A2548E21CA5C89009AAACD /* LaunchScreen.storyboard */,
@@ -180,6 +183,7 @@
 				35A2549021CA5C89009AAACD /* LaunchScreen.storyboard in Resources */,
 				35A2548D21CA5C89009AAACD /* Assets.xcassets in Resources */,
 				35A2548B21CA5C88009AAACD /* Main.storyboard in Resources */,
+				35A254A821CA5DCC009AAACD /* TableData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A2548821CA5C88009AAACD /* ViewController.swift in Sources */,
 				35A2548621CA5C88009AAACD /* AppDelegate.swift in Sources */,
+				35A254A621CA5CA5009AAACD /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
